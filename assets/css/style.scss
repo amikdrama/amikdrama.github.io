@@ -1,0 +1,27 @@
+---
+---
+@import "{{ site.theme }}";
+
+body {
+  background-color: #000000;
+}
+
+.wrapper {
+  background-color: #0D0014;
+}
+
+h1, h2, h3 {
+  color: #FF2E9A;
+}
+
+a {
+  color: #00F0FF;
+}
+
+a:hover {
+  color: #FF2E9A;
+}
+
+li::marker {
+  color: #FF2E9A;
+}
